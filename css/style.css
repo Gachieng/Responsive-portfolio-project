@@ -12,6 +12,9 @@ h1 {
   color: var(--secondary-color);
   opacity: 0.9;
 }
+h2 h3 h4 h5 h6{
+  font-family: var(--default-font-family);
+}
 .hero {
   background: var(--branding-color);
   text-align: center;
@@ -36,6 +39,11 @@ h1 {
   border-radius: 3px;
   opacity: 0.9;
 }
+:hover .btn-branding {
+ color: grey; 
+ background: var(--secondary-color);
+
+}
 .btn-branding-border {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -48,11 +56,38 @@ h1 {
   border-radius: 3px;
   opacity: 0.9;
 }
+:hover .btn-branding-border {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+}
 
 .btn-cta {
   display: flex;
   justify-content: center;
 }
+.about-section {
+  padding: 30px 30px;
+}
+.about-section p{
+  font-family: var(--default-font-family);
+  font-size: 16px;
+}
+.about-section-content {
+margin: 30px;
+}
+.profile-image {
+  margin-top: 60px;
+}
+.attr-link {
+  font-size: 10px;
+  font-family: var(--default-font-family);
+  color:#717272;
+}
+.text {
+  font-size: 10px;
+    color:#717272;
+}
+
 
 @media (max-width: 992px) {
   h1 {
@@ -65,4 +100,20 @@ h1 {
     line-height: 2;
     font-size: 16px;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+    
+  }
+  .about-section .profile-image {
+    margin: 0;
+  }
+  .about-section-content {
+    margin-bottom: 0;
+  }
+  .contact-button {
+    margin-bottom: 0;
+    
+  }
+  
 }
