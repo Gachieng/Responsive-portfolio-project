@@ -15,6 +15,10 @@ h1 {
 h2 h3 h4 h5 h6{
   font-family: var(--default-font-family);
 }
+.row img {
+  background-color: antiquewhite;
+  height:fit-content;
+}
 .hero {
   background: var(--branding-color);
   text-align: center;
@@ -98,6 +102,9 @@ margin: 30px;
 }
 .row p {
   font-size: 14px;
+}
+.weather-app {
+  margin-bottom: 10px;
 }
 @media (max-width: 992px) {
   h1 {
