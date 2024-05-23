@@ -137,11 +137,12 @@ color: var(--branding-color);
 .active {
   color: var(--branding-color) !important;
 }
-footer .contact-box {
+
+footer {
   background: var(--tertiary-color);
-  padding: 30px 100px;
+  padding: 10px 100px;
   border-radius: 10px;
-  margin: 0 40px;
+  margin: 0 40px 40px 40px;
   
 
 }
